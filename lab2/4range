@@ -1,0 +1,11 @@
+'use strict';
+
+function range(start, end) {
+  const result = [];
+
+  for (let i = startIndex; i <= endIndex; i++) {
+    result.push(i);
+  }
+
+  return result;
+}

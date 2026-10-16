@@ -1,0 +1,17 @@
+'use strict';
+
+const phones = [
+  { name: 'person1', phone: '+380671234567' },
+  { name: 'person2', phone: '+380500000001' },
+  { name: 'person3', phone: '+380956789012' },
+];
+
+function findPhoneByName(name) {
+  for (let i = 0; i < phones.length; i++) {
+    if (phones[i].name === name) {
+      return phones[i].phone;
+    }
+  }
+
+  return '';
+}

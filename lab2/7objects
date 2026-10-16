@@ -1,0 +1,16 @@
+'use strict';
+
+const fn = () => {
+  const conObj = {
+    name: 'apple'
+  };
+  let varObj = {
+    name: 'pen'
+  };
+  conObj.name = 'apple';
+  varObj.name = 'pen';
+
+  varObj = {
+    name: 'applepen'
+  };
+}

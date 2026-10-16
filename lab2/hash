@@ -1,0 +1,11 @@
+'use strict';
+
+const hash = {
+    person1: '+380671234567' ,
+    person2: '+380500000001',
+    person3: '+380956789012',
+};
+
+function findPhoneByName(name) {
+  return hash[name] || '';
+}
